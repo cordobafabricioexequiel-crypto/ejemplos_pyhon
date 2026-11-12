@@ -16,3 +16,11 @@ class Persona:
     def cumplir_anios(self):
         self.edad += 1
         print(f"¡Feliz cumpleaños! Ahora tengo {self.edad} años.")
+
+
+if __name__ == "__main__":
+    persona = Persona("Ana", "Gómez", 30)
+    persona.saludar()
+    persona.cumplir_anios()
+    persona.set_nombre("María")
+    persona.saludar()
