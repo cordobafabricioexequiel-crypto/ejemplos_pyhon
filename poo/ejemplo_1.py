@@ -18,9 +18,12 @@ class Persona:
         print(f"¡Feliz cumpleaños! Ahora tengo {self.edad} años.")
 
 
-if __name__ == "__main__":
-    persona = Persona("Ana", "Gómez", 30)
+def main():
+    persona = Persona("Juan", "Pérez", 25)
     persona.saludar()
     persona.cumplir_anios()
-    persona.set_nombre("María")
+    persona.set_nombre("Carlos")
     persona.saludar()
+
+if __name__ == "__main__":
+    main()
